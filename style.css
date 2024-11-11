@@ -1,0 +1,28 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    animation: sanjay 4s linear infinite;
+    color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+@keyframes sanjay {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 1200px;
+        rotate: 360deg;
+        scale: .5;
+        border-radius: 50%;
+        color: aqua;
+        background: linear-gradient(yellow,green,red);
+
+    }
+}
+
